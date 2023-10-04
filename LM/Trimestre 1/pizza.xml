@@ -1,0 +1,116 @@
+<catalogo>
+    <pizzas>
+        <pizza nombre="Margherita">
+            <ingredientes>Tomate, mozzarella y albahaca</ingredientes>
+            <precio>9.00</precio>
+        </pizza>
+        <pizza nombre="Prosciutto e funghi">
+            <ingredientes>Tomate, mozzarella, jamon york, champinones y oregano</ingredientes>
+            <precio>11.50</precio>
+        </pizza>
+        <pizza nombre="Prosciutto">
+            <ingredientes>Tomate, mozzarella, jamon york y oregano</ingredientes>
+            <precio>10.25</precio>
+        </pizza>
+        <pizza nombre="Quattro formaggi">
+            <ingredientes>Mozzarella, emmental, gorgonzola, de cabra y oregano</ingredientes>
+            <precio>12.75</precio>
+        </pizza>
+        <pizza nombre="Napoletana">
+            <ingredientes>Tomate, mozzarella, anchoas, aceitunas negras y oregano</ingredientes>
+            <precio>13.00</precio>
+        </pizza>
+        <pizza nombre="Quattro stagioni">
+            <ingredientes>Tomate, mozzarella, jamon york, champinones, alcachofas, aceitunas negras y oregano</ingredientes>
+            <precio>13.50</precio>
+        </pizza>
+        <pizza nombre="Della casa">
+            <ingredientes>Tomate, mozzarella, jamon york, champinones, chorizo picante y oregano</ingredientes>
+            <precio>12.75</precio>
+        </pizza>
+        <pizza nombre="Bismark">
+            <ingredientes>Tomate, mozzarella, jamon york, huevo, frankfurt y oregano</ingredientes>
+            <precio>12.25</precio>
+        </pizza>
+        <pizza nombre="Tropicale">
+            <ingredientes>Tomate, mozzarella, jamon salado, piña y oregano</ingredientes>
+            <precio>12.75</precio>
+        </pizza>
+        <pizza nombre="Prosciutto crudo">
+            <ingredientes>Mozzarella, rucula y jamon salado</ingredientes>
+            <precio>12.75</precio>
+        </pizza>
+        <pizza nombre="Pancetta e funghi">
+            <ingredientes>Mozzarella, panceta, champiñones, cebolla y oregano</ingredientes>
+            <precio>12.75</precio>
+        </pizza>
+        <pizza nombre="Calzone">
+            <ingredientes>Tomate, mozzarella, jamon york, champiñones, huevo y oregano</ingredientes>
+            <precio>13.00</precio>
+        </pizza>
+        <pizza nombre="Vegetale">
+            <ingredientes>Tomate, mozzarella, pimiento, berenjena, cebolla y oregano</ingredientes>
+            <precio>12.25</precio>
+        </pizza>
+        <pizza nombre="Al tonno">
+            <ingredientes>Tomate, mozzarella, atun, aceitunas, cebolla y oregano</ingredientes>
+            <precio>11.75</precio>
+        </pizza>
+        <pizza nombre="Tonno e carciofini">
+            <ingredientes>Tomate, mozzarella, atun, alcachofas y oregano</ingredientes>
+            <precio>11.75</precio>
+        </pizza>
+        <pizza nombre="Carbonara">
+            <ingredientes>Mozzarella, huevo, nata, panceta y pimienta</ingredientes>
+            <precio>12.25</precio>
+        </pizza>
+        <pizza nombre="Pizza dautunno">
+            <ingredientes>Mozzarella, crema de setas y trufa y champiñones</ingredientes>
+            <precio>13.75</precio>
+        </pizza>
+        <pizza nombre="Pizza al pesto">
+            <ingredientes>Tomate, mozzarella, pesto y grana</ingredientes>
+            <precio>13.75</precio>
+        </pizza>
+        <pizza nombre="Pizza pera e gorgonzola">
+            <ingredientes>Mozzarella, gorgonzola y pera</ingredientes>
+            <precio>11.50</precio>
+        </pizza>
+        <pizza nombre="Pizza barbacoa">
+            <ingredientes>Tomate, mozzarella, carne, bacon y salsa barbacoa</ingredientes>
+            <precio>12.50</precio>
+        </pizza>
+    </pizzas>
+    <ensaladas>
+        <ensalada nombre="Insalata mista">
+            <ingredientes>Ensalada cariada con nueces, arandanos, queso de cabra y vinagreta de miel</ingredientes>
+            <precio>8.00</precio>
+        </ensalada>
+        <ensalada nombre="Carpaccio di bresaola">
+            <ingredientes>Carpaccio di bresaola, queso parmesano, rucula y tomates cherry</ingredientes>
+            <precio>9.50</precio>
+        </ensalada>
+        <ensalada nombre="Insalata di pomodoro e mozzarella">
+            <ingredientes>Ensalada de tomate, mozzarella de bufala y albahaca</ingredientes>
+            <precio>7.25</precio>
+        </ensalada>
+        <ensalada nombre="Insalata burrata">
+            <ingredientes>Burrata, brotes, tomates cherry y pistachos</ingredientes>
+            <precio>9.00</precio>
+        </ensalada>
+    </ensaladas>
+    <postres>
+        <postre nombre="Tiramisu">
+            <precio>4.00</precio>
+        </postre>
+        <postre nombre="Panna cotta">
+            <precio>3.75</precio>
+        </postre>
+        <postre nombre="Pizza alla nutella">
+            <precio>11.00</precio>
+        </postre>
+        <postre nombre="Coulant">
+            <precio>3.50</precio>
+        </postre>
+    </postres>
+</catalogo>
