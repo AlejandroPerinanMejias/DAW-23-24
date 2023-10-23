@@ -1,4 +1,14 @@
 1- Con la etiqueta noscript.
-2- La A.
-A- 
-B- 
+2- A
+A- C
+B- C
+C- C
+D- D
+E- A
+F- C
+G- C
+H- A 
+I- D
+J- C
+K- A
+L- C
