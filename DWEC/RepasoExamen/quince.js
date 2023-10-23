@@ -16,6 +16,5 @@ function dia() {
 
         default:
             alert("Dia incorrecto");
-            break;
     }
 }
