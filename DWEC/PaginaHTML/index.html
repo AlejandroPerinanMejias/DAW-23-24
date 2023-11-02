@@ -3,13 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Alejandro Periñán Mejías">
-        <meta name="keywords" content="">
+        <meta name="keywords" content="Componentes, Hardware, Informática">
         <meta name="description" content="Página web de ventas de productos de electrónica">
-        <title>Home</title>
+        <title>Productos</title>
         <link rel="stylesheet" href="css.css">
     </head>
     <body>
-        <h1>Peritech</h1>
-        <h2>Venta de productos electrónicos</h2>
+        <header>
+            <h1 class="cabecera">&#x1F531;PeriTech&#x1F531;</h1>
+                <ul> <!--Esta lista estaría para cuando existiera un HTML, para Inicio, otro para Productos y otro para Contacto.-->
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+        </header>
+    
+        <main>
+            <section class="productos"> <!--Aquí se encuentran los productos, se podrían añadir más facilmente siguiendo este esquema.-->
+                <article class="producto">
+                    <img src="imagenes/b550msi.jpg" width="200px" height="200px" alt="Producto 1">
+                    <h2>MSI MPG B550 GAMING PLUS</h2>
+                    <p>Placa base.</p>
+                    <p>Precio: $150.00</p>
+                    <button>Comprar</button>
+                </article>
+    
+                <article class="producto">
+                    <img src="imagenes/ryzen-5-5600x.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>AMD Ryzen 5 5600X 3.7GHz</h2>
+                    <p>Procesador.</p>
+                    <p>Precio: $170.00</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="imagenes/wd-black-sn770-2tb-nvme-ssd.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>WD BLACK SN770 2TB NVMe</h2>
+                    <p>Disco duro.</p>
+                    <p>Precio: $130.00</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="imagenes/corsair-vengeance-rgb-pro-ddr4-3200-pc4-25600-32gb-2x16gb-cl16.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>Corsair Vengeance RGB Pro</h2>
+                    <h2>DDR4 3200 2x16GB</h2>
+                    <p>Memoria RAM.</p>
+                    <p>Precio: $90.00</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="imagenes/corsair-rme-series-rm850e-850w-80-plus-gold-modular.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>Corsair RMe Series RM850e</h2>
+                    <h2>850W 80 Plus Gold Modular</h2>
+                    <p>Fuente de alimentación.</p>
+                    <p>Precio: $145.00</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="producto">
+                    <img src="imagenes/msi-amd-radeon-rx-6650-xt-gaming-x-8gb-gddr6.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>MSI RX 6650 XT GAMING X</h2>
+                    <h2>8GB GDDR6</h2>
+                    <p>Tarjeta gráfica.</p>
+                    <p>Precio: $250.00</p>
+                    <button>Comprar</button>
+                </article>
+            </section>
+        </main>
+    
+        <footer>    <!--Pie de página con lo que serían enlaces a las redes sociales de la empresa.-->
+            <p>&copy; 2023 Tienda de Informática</p>
+            <a href="https://instagram.com" target="_blank"><img src="imagenes/logoinsta.jpg" width="50px" height="50px" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="imagenes/logox.jpg" width="50px" height="50px" alt="X"></a>
+            <a href="https://youtube.com" target="_blank"><img src="imagenes/logoyoutube.jpg" width="50px" height="50px" alt="YouTube"></a>
+        </footer>
     </body>
 </html>

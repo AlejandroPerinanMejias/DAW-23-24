@@ -1,0 +1,64 @@
+/* Estilos de la página */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background: linear-gradient(to right, red, green, blue);
+    background-size: 600% 100%; /* Controla la velocidad del efecto */
+    animation: rgb 5s linear infinite; /* Controla la velocidad de animación */
+}
+
+@keyframes rgb {    /*Creamos una animación RGB.*/
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+header {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+}
