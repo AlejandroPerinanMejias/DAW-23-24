@@ -15,12 +15,12 @@
                 <ul> <!--Esta lista estaría para cuando existiera un HTML, para Inicio, otro para Productos y otro para Contacto.-->
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Productos</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href=#formulario>Contacto</a></li>
                 </ul>
         </header>
     
         <main>
-            <section class="productos"> <!--Aquí se encuentran los productos, se podrían añadir más facilmente siguiendo este esquema.-->
+            <section id="productos" class="productos"> <!--Aquí se encuentran los productos, se podrían añadir más facilmente siguiendo este esquema.-->
                 <article class="producto">
                     <img src="imagenes/b550msi.jpg" width="200px" height="200px" alt="Producto 1">
                     <h2>MSI MPG B550 GAMING PLUS</h2>
@@ -71,6 +71,56 @@
                     <p>Precio: 250.00€</p>
                     <button>Comprar</button>
                 </article>
+            </section><br><br><br>
+
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <table border="1">
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Reparación</td>
+                        <td>Reparación de hardware y software.</td>
+                        <td>Varía según el servicio</td>
+                    </tr>
+                    <tr>
+                        <td>Actualización de Hardware</td>
+                        <td>Mejora de componentes de hardware, como RAM, disco duro, tarjeta gráfica, etc.</td>
+                        <td>Varía según la actualización</td>
+                    </tr>
+                    <tr>
+                        <td>Eliminación de Virus</td>
+                        <td>Escaneo y eliminación de virus.</td>
+                        <td>50€ - 100€</td>
+                    </tr>
+                    <tr>
+                        <td>Recuperación de Datos</td>
+                        <td>Recuperación de datos perdidos o dañados en discos duros y dispositivos de almacenamiento.</td>
+                        <td>Varía según la complejidad</td>
+                    </tr>
+                </table>
+            </section><br><br><br>
+
+            <section id="formulario">   <!--Formulario para contacto-->
+                <form action="" method="post">
+                    <h2>Contacto</h2>
+                    <div>
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                      <label for="email">Correo electrónico:</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                      <label for="mensaje">Mensaje:</label>
+                      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                  </form>
             </section>
         </main>
     
