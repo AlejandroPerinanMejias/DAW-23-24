@@ -24,7 +24,7 @@ function operacionesMatematicas(num1, num2, num3) {
     else {
         seis = 100;
     }
-    var ocho = 1 + "";
+    var ocho = uno + "";
 
     console.log(uno);
     console.log(dos);
