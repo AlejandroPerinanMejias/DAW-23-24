@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <table border="2"> <!--Tabla A-->
+            <caption>TABLA INTERNA (TI)</caption>
+            <tr>
+                <td colspan="4">Soy una celda de la TI que surge de combinar 4 celdas</td>
+            </tr>
+            <tr>
+                <td>Soy una celda normal de la TI</td>
+                <td>Soy una celda normal de la TI</td>
+                <td>Soy una celda normal de la TI</td>
+                <td>Soy una celda normal de la TI</td>
+            </tr>
+        </table><br><br><br>
+
+        <table border="2">  <!--Tabla B-->
+            <caption>TABLA EXTERNA (TE)</caption>
+            <tr>
+                <td rowspan="4">Soy una celda de la TE que surge de combinar 3 celdas</td>
+            </tr>
+            <tr>
+                <td>Soy una celda normal de la TE</td>
+            </tr>
+            <tr>
+                <td>Soy una celda normal de la TE</td>
+            </tr>
+            <tr>
+                <td>Soy una celda normal de la TE</td>
+            </tr>
+        </table><br><br><br>
+
+        <table border="2">  <!--Tabla C-->
+            <caption>TABLA EXTERNA (TE)</caption>
+            <tr>
+                <td rowspan="6">Soy una celda de la TE que surge de combinar 3 celdas</td>
+            </tr>
+            <tr>
+                <td colspan="4">Yo soy una celda normal de la TE</td>
+            </tr>
+            <tr>
+                <th colspan="4">TABLA INTERNA (TI)</th>
+            </tr>
+            <tr>
+                <td colspan="4">Soy una celda de la TI que surge de combinar 4 celdas</td>
+            </tr>
+            <tr>
+                <td>Yo soy una celda normal de la TI</td>
+                <td>Yo soy una celda normal de la TI</td>
+                <td>Yo soy una celda normal de la TI</td>
+                <td>Yo soy una celda normal de la TI</td>
+            </tr>
+            <tr>
+                <td colspan="4">Yo soy una celda normal de la (TE)</td>
+            </tr>
+        </table>
+    </body>
+</html>
