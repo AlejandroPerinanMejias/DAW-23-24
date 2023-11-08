@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alejandro Periñán Mejías">
+    </head>
+    <body>
+        <h1>Formulario estructurado</h1>
+        <form action="datos.php" method="get">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" name="apellidos" id="apellidos"><br><br>
+                <label for="dni">DNI</label><br>
+                <input type="text" name="dni" id="dni" size="15" maxlength="9"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de conexion</legend>
+                <label for="nombreUsuario">Nombre de usuario</label><br>
+                <input type="text" name="nombreUsuario" id="nombreUsuario"><br><br>
+                <label for="contrasena">Contrasena</label><br>
+                <input type="text" name="contrasena" id="contrasena"><br><br>
+                <label for="contrasena2">Repite la contrasena</label><br>
+                <input type="text" name="contrasena2" id="contrasena2"><br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>

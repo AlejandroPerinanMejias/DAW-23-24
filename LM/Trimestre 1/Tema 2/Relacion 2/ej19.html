@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alejandro Periñán Mejías">
+    </head>
+    <body>
+        <h1>Rellena tu CV</h1>
+        <form action="datoscv.php" method="post" id="form3" name="form3">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="provincia">Provincia</label><br>
+                <select name="provincia" id="provincia">
+                    <option value="almeria">Almeria</option>
+                    <option value="granada">Granada</option>
+                    <option value="malaga">Malaga</option>
+                    <option value="jaen">Jaen</option>
+                    <option value="cordoba">Cordoba</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="cadiz">Cadiz</option>
+                    <option value="huelva">Huelva</option>
+                </select><br><br>
+
+                <label for="fechaNacimiento">Fecha de nacimiento</label><br>
+                <input type="text" name="diaNacimiento" id="diaNacimiento" size="5">
+                <label> de </label>
+                <label for="mesNacimiento"></label>
+                <select name="mesNacimiento" id="mesNacimiento">
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select>
+                <label for="anio">Anio</label>
+                <input type="text" name="anio" id="anio" size="5"><br><br>
+                
+                <label for="interes">Temas de interes</label><br>
+                <select name="interes" id="interes" size="3">
+                    <option value="BD">Administracion de base de datos</option>
+                    <option value="AnalisisProg">Analisis y programacion</option>
+                    <option value="arquitectura">Arquitectura</option>
+                    <option value="calidad">Calidad</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alejandro Periñán Mejías">
+    </head>
+    <body>
+        <h2>Informacion sobre el producto</h2>
+        <form action="peticion.php" method="post" name="form4" id="form4">
+            <fieldset>
+                <legend>Datos basicos</legend>
+                <label for="nombre">Nombre</label><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="descripcion">Descripcion</label><br>
+                <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea><br><br>
+                <label for="foto">Foto</label>
+                <input type="file" name="foto" id="foto"><br><br>
+                <input type="checkbox" name="visitas" id="visitas">
+                <label for="visitas">Anadir contador de visitas</label>
+            </fieldset><br><br>
+
+            <fieldset>
+                <legend>Datos economicos</legend>
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio" size="5">
+                <label>€</label>
+                <label for="impuestos">Impuestos</label>
+                <select name="impuestos" id="impuestos">
+                    <option value="4">4%</option>
+                    <option value="7">7%</option>
+                    <option value="16">16%</option>
+                    <option value="25">25%</option>
+                </select><br><br>
+                <label for="promocion">Promocion</label><br>
+                <input type="radio" name="promocion" id="ninguno">
+                <label for="ninguno">Ninguno</label><br>
+                <input type="radio" name="promocion" id="gratuito">
+                <label for="gratuito">Transporte gratuito</label><br>
+                <input type="radio" name="promocion" id="5">
+                <label for="5">Descuento 5%</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
