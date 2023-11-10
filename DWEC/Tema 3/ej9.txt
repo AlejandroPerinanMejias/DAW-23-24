@@ -1,0 +1,29 @@
+1- Las comillas simples y dobles funcionan de la misma manera en JavaScript.
+Verdadero.
+
+2- Para crear una cadena multilínea en JavaScript, se utilizan comillas simples.
+Falso. Se utilizan la tilde invertida.
+
+3- La función toUpperCase() convierte una cadena a minúsculas.
+Falso. A mayúsculas.
+
+4- El método substring en JavaScript permite especificar una posición negativa como argumento.
+Verdadero.
+
+5- El método localeCompare se utiliza para comparar cadenas en JavaScript y tiene en cuenta las reglas del idioma.
+Verdadero, respecto al idioma del navegador.
+
+6- El método includes verifica si una cadena contiene otra cadena, pero es sensible a mayúsculas y minúsculas.
+Verdadero.
+
+7- El método slice no permite argumentos negativos.
+Falso.
+
+8- El método trim se utiliza para agregar espacios al comienzo y al final de una cadena.
+Falso. Se utiliza para quitar los espacios al comienzo y al final de una cadena.
+
+9- El método codePointAt devuelve el código de carácter en una posición dada de la cadena.
+Verdadero.
+
+10- Para obtener el valor numérico de la cadena "$50", se puede utilizar parseInt("$50").
+Falso. Al encontrarse el simbolo del dolar devolveria NaN.
