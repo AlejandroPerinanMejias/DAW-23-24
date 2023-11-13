@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    background-color: lightblue;
+}
+
+table, th, td, caption {
+    text-align: center;
+    border: 1px solid cadetblue;
+    border-collapse: collapse;
+}
+
+input {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    appearance: none;
+    border: 2px solid #888;
+}
+
+input:checked {
+    appearance: auto;
+}
