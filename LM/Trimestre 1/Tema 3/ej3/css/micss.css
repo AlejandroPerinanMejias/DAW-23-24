@@ -1,0 +1,16 @@
+body {
+    /*A*/
+    background-color: rgb(255, 255, 0);
+    /*B*/
+    background-image: url(../imagenes/windowsxp.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    /*C*/
+    background-position: center;
+    /*D*/
+    background-position: fixed;
+    /*E*/
+    background-image: url(../imagenes/paisajehd.jpg);
+    background-size: auto;
+    background-color: rgb(215, 107, 30);
+}

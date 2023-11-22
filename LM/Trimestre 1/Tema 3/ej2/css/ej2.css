@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: arial;
+}
+
+p {
+    color: #555555;
+}
+
+p#primero {
+    color: #336699;
+}
+
+a {
+    color: #cc3300;
+}
+
+#primero > em {
+    background: #FFFFCC;
+}
+
+em.especial {
+    background: #FFCC99;
+    border: 1px solid #FF9900;
+    padding: .1em;
+}
+
+.normal span {
+    font-weight: bold;
+}
