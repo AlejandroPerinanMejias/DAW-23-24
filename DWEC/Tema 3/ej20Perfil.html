@@ -5,5 +5,12 @@
         <script src="ej20.js"></script>
     </head>
     <body>
+        <label for="idiomas">Idiomas: </label>
+        <select name="idiomas" id="idiomas" onchange="cambiarIdioma()">
+            <option value="esp" selected>Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+        </select>
+        <p id="saludo"></p>
     </body>
 </html>
