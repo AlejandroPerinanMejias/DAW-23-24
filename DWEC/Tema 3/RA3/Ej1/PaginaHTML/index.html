@@ -1,0 +1,160 @@
+<!--
+    Para la realización de esta tarea, he implementado 2 nuevas funcionalidades a la página web
+    que tuvimos que hacer en una entrega anterior. La primera de ellas es que en la página principal
+    he añadido un carrito (js.js), que se corresponde al ejercicio 1 del trabajo, y la segunda un login de 
+    usuarios (BaseDeDatos.js), a la parte 2. Se acceden a ellas pinchando los emojis de carrito y usuario en 
+    la cabecera de la página principal.
+    Ambas partes se encuentran mas detalladas en los comentarios de cada documento js.
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Alejandro Periñán Mejías">
+        <meta name="keywords" content="Componentes, Hardware, Informática">
+        <meta name="description" content="Página web de ventas de productos de electrónica">
+        <title>Productos</title>
+        <link rel="icon" href="imagenes/logo.ico">
+        <link rel="stylesheet" href="css.css">
+        <script src="js.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 class="cabecera">&#x1F531;PeriTech&#x1F531;<a href=#cesta class="cesta">&#x1F6D2;</a><a href="login.html" class="login">&#128100;</a></h1></h1>
+                <ul> <!--Esta lista estaría para cuando existiera un HTML, para Inicio, otro para Productos y otro para Contacto.-->
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href=#formulario>Contacto</a></li>
+                </ul>
+        </header>
+    
+        <main>
+            <section id="productos" class="productos"> <!--Aquí se encuentran los productos, se podrían añadir más facilmente siguiendo este esquema.-->
+                <article class="producto" id="producto1">
+                    <img src="imagenes/b550msi.jpg" width="200px" height="200px" alt="Producto 1">
+                    <h2>MSI MPG B550 GAMING PLUS</h2>
+                    <p>Placa base.</p>
+                    <p>Precio: 150.00€</p>
+                    <button onclick="anadirCarrito('producto1')">Comprar</button>
+                </article>
+    
+                <article class="producto" id="producto2">
+                    <img src="imagenes/ryzen-5-5600x.jpg" width="200px" height="200px" alt="Producto 2">
+                    <h2>AMD Ryzen 5 5600X 3.7GHz</h2>
+                    <p>Procesador.</p>
+                    <p>Precio: 170.00€</p>
+                    <button onclick="anadirCarrito('producto2')">Comprar</button>
+                </article>
+
+                <article class="producto" id="producto3">
+                    <img src="imagenes/wd-black-sn770-2tb-nvme-ssd.jpg" width="200px" height="200px" alt="Producto 3">
+                    <h2>WD BLACK SN770 2TB NVMe</h2>
+                    <p>Disco duro.</p>
+                    <p>Precio: 130.00€</p>
+                    <button onclick="anadirCarrito('producto3')">Comprar</button>
+                </article>
+
+                <article class="producto" id="producto4">
+                    <img src="imagenes/corsair-vengeance-rgb-pro-ddr4-3200-pc4-25600-32gb-2x16gb-cl16.jpg" width="200px" height="200px" alt="Producto 4">
+                    <h2>Corsair Vengeance RGB Pro</h2>
+                    <h2>DDR4 3200 2x16GB</h2>
+                    <p>Memoria RAM.</p>
+                    <p>Precio: 90.00€</p>
+                    <button onclick="anadirCarrito('producto4')">Comprar</button>
+                </article>
+
+                <article class="producto" id="producto5">
+                    <img src="imagenes/corsair-rme-series-rm850e-850w-80-plus-gold-modular.jpg" width="200px" height="200px" alt="Producto 5">
+                    <h2>Corsair RMe Series RM850e</h2>
+                    <h2>850W 80 Plus Gold Modular</h2>
+                    <p>Fuente de alimentación.</p>
+                    <p>Precio: 145.00€</p>
+                    <button onclick="anadirCarrito('producto5')">Comprar</button>
+                </article>
+
+                <article class="producto" id="producto6">
+                    <img src="imagenes/msi-amd-radeon-rx-6650-xt-gaming-x-8gb-gddr6.jpg" width="200px" height="200px" alt="Producto 6">
+                    <h2>MSI RX 6650 XT GAMING X</h2>
+                    <h2>8GB GDDR6</h2>
+                    <p>Tarjeta gráfica.</p>
+                    <p>Precio: 250.00€</p>
+                    <button onclick="anadirCarrito('producto6')">Comprar</button>
+                </article>
+            </section><br><br><br>
+
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <table border="1">
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Reparación</td>
+                        <td>Reparación de hardware y software.</td>
+                        <td>Varía según el servicio</td>
+                    </tr>
+                    <tr>
+                        <td>Actualización de Hardware</td>
+                        <td>Mejora de componentes de hardware, como RAM, disco duro, tarjeta gráfica, etc.</td>
+                        <td>Varía según la actualización</td>
+                    </tr>
+                    <tr>
+                        <td>Eliminación de Virus</td>
+                        <td>Escaneo y eliminación de virus.</td>
+                        <td>50€ - 100€</td>
+                    </tr>
+                    <tr>
+                        <td>Recuperación de Datos</td>
+                        <td>Recuperación de datos perdidos o dañados en discos duros y dispositivos de almacenamiento.</td>
+                        <td>Varía según la complejidad</td>
+                    </tr>
+                </table>
+            </section><br><br><br>
+
+            <section id="formulario">   <!--Formulario para contacto-->
+                <form action="" method="post">
+                    <h2>Contacto</h2>
+                    <div>
+                      <label for="nombre">Nombre:</label>
+                      <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                      <label for="email">Correo electrónico:</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                      <label for="mensaje">Mensaje:</label>
+                      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                  </form>
+            </section><br><br><br>
+
+            <section id="cesta">
+                <table id="tablaCesta">
+                    <thead>
+                        <tr>
+                            <th>Nombre producto</th>
+                            <th>Precio</th>
+                            <th id="recarga"><button onclick="anadirProductosTabla()">&#x1F504;</button></th>
+                            <th id="vaciarCesta"><button onclick="limpiarCesta()">&#x1F5D1;</button></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Los productos se añadirán aquí -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    
+        <footer>    <!--Pie de página con lo que serían enlaces a las redes sociales de la empresa.-->
+            <p>&copy; 2023 Tienda de Informática</p>
+            <a href="https://instagram.com" target="_blank"><img src="imagenes/logoinsta.jpg" width="50px" height="50px" alt="Instagram"></a>
+            <a href="https://twitter.com" target="_blank"><img src="imagenes/logox.jpg" width="50px" height="50px" alt="X"></a>
+            <a href="https://youtube.com" target="_blank"><img src="imagenes/logoyoutube.jpg" width="50px" height="50px" alt="YouTube"></a>
+        </footer>
+    </body>
+</html>

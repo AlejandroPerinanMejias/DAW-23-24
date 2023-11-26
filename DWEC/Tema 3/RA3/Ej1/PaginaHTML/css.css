@@ -1,0 +1,136 @@
+/* Estilos de la página */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+header, footer {
+    background: linear-gradient(to right, red, green, blue);
+    background-size: 600% 100%; /* Controla la velocidad del efecto */
+    animation: rgb 5s linear infinite; /* Controla la velocidad de animación */
+}
+
+@keyframes rgb {    /*Creamos una animación RGB.*/
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+.cesta {
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+#recarga, #vaciarCesta {
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none; /*Quitar el subrayado a los enlaces. */
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #0056b3;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+footer {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+}

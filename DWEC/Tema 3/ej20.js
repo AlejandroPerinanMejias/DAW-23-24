@@ -3,14 +3,15 @@ function login() {
     document.cookie = "juan=123456";
     document.cookie = "pepe=123456";
 
-    let usuario = document.getElementById("usuario");
-    let contrasena = document.getElementById("contrasena");
+    let usuario = document.getElementById("usuario").value;
+    let contrasena = document.getElementById("contrasena").value;
 
     let cookieUsuario = usuario + "=" + contrasena;
 
     if (document.cookie.includes(cookieUsuario)) {
         location.href = "ej20Perfil.html";
     }
+    console.log(document.cookie);
 }
 
 var idioma = document.cookie = "idioma=esp";
