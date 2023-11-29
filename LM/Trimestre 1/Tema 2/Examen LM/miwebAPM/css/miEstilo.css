@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.datosPersonales, .masInfo {
+    background-color: whitesmoke;
+}
+
+.formulario {
+    margin-right: 50%;
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imagenes img {
+    position: relative;
+    height: 250%;
+    width: 300px;
+}
+
+a img {
+    height: 50%;
+    width: 50px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen 1er Trim - Alejandro Perinan Mejias</title>
+        <link rel="stylesheet" type="favicon" href="../source/favicon.ico">
+        <meta name="author" content="Alejandro Perinan Mejias">
+        <meta name="description" content="Pagina web del examen de HTML y CSS del primer trimestre de LM">
+        <meta name="keywords" content="Formulario, Datos personales, Intereses">
+        <link rel="stylesheet" type="text/css" href="../css/miEstilo.css">
+    </head>
+    <body>
+        <div class="formulario">
+            <header id="cabecera">
+                <h1>Examen 1er Trim - Alejandro Perinan Mejias</h1>
+            </header>
+            
+
+            <div class="imagenes">
+                <img src="../source/bosque.jpg" alt="Bosque">
+                <img src="../source/eiffel.jpg" alt="Torre Eiffel">
+                <img src="../source/playa.jpg" alt="Playa">
+            </div>
+            
+            <form action="">
+                <fieldset class="datosPersonales">
+                    <legend>Datos personales</legend>
+
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" maxlength="30"><br><br>
+
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" maxlength="60"><br><br>
+
+                    <label for="email">e-mail: </label>
+                    <input type="text" placeholder="cualquierpalabra@cualquierpalabra.extension"><br><br>
+
+                    <label for="via">Via Publica: </label><br>
+                    <select name="via" id="via">
+                        <option value="calle">Calle</option>
+                        <option value="plaza">Plaza</option>
+                        <option value="avenida">Avenida</option>
+                        <option value="paseo">Paseo</option>
+                    </select>
+                    <input type="text"><br><br>
+
+                    <label for="CP">C. Postal</label>
+                    <input type="text" minlength="5" maxlength="5"><br><br>
+
+                    <label for="dni">DNI:</label>
+                    <input type="text" minlength="9" maxlength="9"><br><br>
+
+                    <label for="foto">Fotografia: </label>
+                    <input type="file">
+                </fieldset>
+
+                <fieldset class="masInfo">
+                    <legend>Mas informacion</legend>
+
+                    <p>Intereses: </p>
+                    <input type="checkbox" id="informatica" value="informatica">
+                    <label for="informatica">Informatica</label><br>
+
+                    <input type="checkbox" id="videojuegos" value="videojuegos">
+                    <label for="videojuegos">Videojuegos</label><br>
+
+                    <input type="checkbox" id="literatura" value="literatura">
+                    <label for="literatura">Literatura</label><br>
+
+                    <input type="checkbox" id="DRiesgo" value="DRiesgo">
+                    <label for="DRiesgo">Deportes de riesgo</label><br>
+
+                    <input type="checkbox" id="DGrupo" value="DGrupo">
+                    <label for="DGrupo">Deportes de grupo</label><br>
+
+                    <input type="checkbox" id="DIndividual" value="DIndividual">
+                    <label for="DIndividual">Deporte individual</label><br>
+
+                    <p>Nivel de estudios: </p>
+                    <input type="radio" name="NEstudios" id="NEstudios">
+                    <label for="NEstudios">Basico</label><br>
+
+                    <input type="radio" name="NEstudios" id="NEstudios">
+                    <label for="NEstudios">Medio</label><br>
+
+                    <input type="radio" name="NEstudios" id="NEstudios">
+                    <label for="NEstudios">Superior</label><br><br>
+
+                    <label for="observaciones">Observaciones: </label><br>
+                    <textarea name="observaciones" id="observaciones" cols="40" rows="5"></textarea>
+                
+                </fieldset>
+
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <input type="reset" name="borrar" id="borrar" value="Borrar">
+
+            </form><br><br>
+            <a href="https://iesfernandoaguilar.es" target="_blank"><img src="../source/logoInstituto.jpg" alt="Logo Instituto"></a>
+            <a mailto:jorgejuan.delgado.duran@iesfernandoaguilar.es><img src="../source/mail.png" alt="Enviar email"></a>
+            <a href="#cabecera"><img src="../source/home.jpg" alt="Inicio de la pagina"></a>
+        </div>
+    </body>
+</html>
