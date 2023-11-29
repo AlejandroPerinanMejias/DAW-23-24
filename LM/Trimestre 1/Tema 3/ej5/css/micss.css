@@ -1,0 +1,15 @@
+#primero, #segundo {
+    letter-spacing: 5em;
+}
+
+#tercero, #cuarto {
+    line-height: 200%;
+}
+
+#quinto, #sexto {
+    word-spacing: 3em;
+}
+
+#septimo, #octavo {
+    text-shadow: 2px;
+}
