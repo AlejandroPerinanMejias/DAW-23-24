@@ -1,0 +1,22 @@
+TEMA 3: Servidores de aplicaciones. Despliegue de aplicaciones.
+
+-Servidor de aplicaciones
+    -Que es
+    -Como funciona y que hace
+    -Por que es util
+
+-Despliegue de aplicaciones
+    -Que es
+    -Que son los entornos, el entorno en vivo
+    -Planificacion, Desarrollo, Pruebas, Despliegue, Supervision
+
+-Buenas practicas Despliegue
+    -Github
+    -Ramas
+    -Entorno local
+    -Revisar diferencias antes de desplegar
+    -Mejor momento para desplegar
+
+-Despliegue en entornos multiples
+    -Reduce el riesgo de romper
+    -Ahorro de tiempo
