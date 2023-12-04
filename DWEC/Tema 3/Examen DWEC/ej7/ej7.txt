@@ -1,0 +1,3 @@
+Para la realización de los ejercicios anteriores, he utilizado Firefox como visualizador de los HTML y JS.
+Dentro de este, el uso de la consola me ha ayudado a averiguar en ciertos casos que era lo que estaba fallando de mi código.
+Los documentos los he escrito en VSCode, dentro de este en el apartado Run and Debug, podremos probar y depura nuestro código, si solo queremos ver como funciona parte de él podremos hacerlo hacerlo añadiendo un pointer en el código.
