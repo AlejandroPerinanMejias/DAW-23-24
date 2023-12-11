@@ -1,5 +1,10 @@
+/* Tenemos una funcion de un programa que requiere de un array como parametro para su correcto funcionamiento,
+para ello, debes crear ahora un funcion que te compruebe si la variable "datos" es un array o no. */
 function isArray() {
-
+    let datos = [1, 2, 3, 4, 5];
+    if (Array.isArray(datos)) {
+        console.log("Es un array");
+    } else console.log("No es un array");
 }
 
 /* Tenemos un array con los nombres de los alumnos solicitando matricularse al centro, pero solo tenemos 30 plazas,
@@ -132,13 +137,20 @@ function sort() {
     console.log(nombres);
 }
 
-
+/* Tenemos un array con los ingresos que ha recibido una empresa esta semana, el jefe nos ha solicitado crear un nuevo array
+con los mismos valores pero en lugar de ser variables numericas que sean de tipo cadena. */
 function toString() {
-    
+    let ingresos = [54, 45, 120, 98];
+    let ingresosCadena = [];
+
+    for (let ingreso in ingresos) {
+        ingresosCadena.push(ingresos[ingreso].toString());
+    }
+    console.log(ingresosCadena);
 }
 
-/* Tenemos una lista con el historial de las paginas visitadas por un alumno, queremos comprobar si entre ellas se encuentra chatGPT
-haz un console.log en funcion de si lo ha visitado o no. */
+/* Tenemos una lista con el historial de las paginas visitadas por un alumno, queremos comprobar si entre ellas se encuentra chatGPT 
+(https://www.chatgpt.com), haz un console.log en funcion de si lo ha visitado o no. */
 function includes() {
     let historialNavegacion = [
         "https://www.ejemplo.com",
