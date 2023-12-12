@@ -1,0 +1,4 @@
+ul.a {list-style-type:georgian;}
+ul.b {list-style-type:disc;}
+ol.c {list-style-type:armenian;}
+ol.d {list-style-image: url(../img/cocacola.png)}

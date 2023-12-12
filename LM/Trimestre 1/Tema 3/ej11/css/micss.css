@@ -1,0 +1,20 @@
+a:link {
+    color: #FF0000;
+    text-decoration: none;
+    background-color: #B2FF99;
+}
+a:visited {
+    color: #00FF00;
+    text-decoration: none;
+    background-color: #FFF8B5;
+}
+a:hover {
+    color: #FF000F;
+    text-decoration: underline;
+    background-color: #FF704D;
+}
+a:active {
+    color: #0000FF;
+    text-decoration: underline; 
+    background-color:#FF704D; 
+}
