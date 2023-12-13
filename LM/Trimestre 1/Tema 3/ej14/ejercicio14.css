@@ -46,3 +46,13 @@ img { border: none; }
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
+
+.cabecera {
+  padding: 1em;
+}
+
+.menu {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
