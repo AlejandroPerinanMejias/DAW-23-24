@@ -1,0 +1,22 @@
+body {
+    background-color: orangered;
+}
+
+h1 {
+    font-family: "Times";
+    color: blue;
+    background-color: white;
+    border: 1px solid;
+    border-color: blue;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+img {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.tercera {
+    margin-top: 150px;
+}
