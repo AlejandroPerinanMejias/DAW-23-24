@@ -94,9 +94,11 @@ function splice() {
         "Benjamin", "Avery", "Mason", "Evelyn", "Carter", "Hazel", "Michael", "Emily", "Samuel", "Scarlett"
       ];
 
-    universo = universo.splice(50);
+    let mitadUniverso = universo.splice(50);
+
+    mitadUniverso = mitadUniverso.splice(0,5,"Maria", "Juan", "Pedro", "Pepe", "Manolo");
       
-    console.log(universo);
+    console.log(mitadUniverso);
 }
 
 /* Tenemos un array de numeros, comprueba si el numero que compone todos los elementos del array es capicua */

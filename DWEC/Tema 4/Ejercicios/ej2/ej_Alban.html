@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="ej_compas.js"></script>
+    </head>
+    <body>
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input type="text">
+
+            <label for="cantidad">Cantidad: </label>
+            <input type="text">
+
+            <label for="unidades">Unidades: </label>
+            <select name="unidades" id="unidades">
+                <option value="kg">Kg</option>
+                <option value="litros">Litros</option>
+                <option value="unidades">Unidades</option>
+                <option value="envases">Envases</option>
+            </select>
+
+            <button onclick="generarLista()">Generar lista</button>
+        </form>
+    </body>
+</html>
