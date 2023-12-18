@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ej5.css">
+        <script src="ej5.js"></script>
+    </head>
+    <body onload="mostrarLista()">
+        <h1>Lista de la compra</h1>
+        <ul id="lista">
+            
+        </ul><br><br>
+
+        <label for="producto">Producto: </label>
+        <input type="text" id="producto" placeholder="Introduce un producto"><br><br>
+        <button id="mostrarPrecio" onclick="mostrarPrecio()">Mostrar precio</button><br><br>
+
+        <h1>Añadir nuevo producto a la lista</h1>
+        <label for="nuevoProducto">Nuevo producto: </label>
+        <input type="text" id="nuevoProducto" placeholder="Nuevo producto">
+        <label for="precio"></label>
+        <input type="text" id="precio" placeholder="Precio"><br><br>
+        <button id="anadirProducto" onclick="anadirNuevoProducto()">Añadir producto</button>
+    </body>
+</html>

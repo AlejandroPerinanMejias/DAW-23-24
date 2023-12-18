@@ -1,0 +1,15 @@
+#mostrarPrecio {
+    background-color: rgb(73, 202, 202);
+    color: white;
+    font-size: larger;
+    height: 2em;
+    width: 14em;
+}
+
+#anadirProducto {
+    background-color: rgb(73, 187, 73);
+    color: white;
+    font-size: larger;
+    height: 2em;
+    width: 25em;
+}
