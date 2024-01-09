@@ -29,12 +29,12 @@ function eliminarTarea(id) {
 }
 
 function buscarTarea() {
-    let id = document.getElementById("buscarTarea").value;
+    let id = parseInt(document.getElementById("buscarTarea").value);
     for (let i = 0; i < tareas.length; i++) {
-        if (tareas[i].id == id) {
+        if (tareas[i].id === id) {
             let tarea = tareas[i];
-            document.getElementById("tareaEncontrada").innerHTML = tarea.id + " " + '<strong>' + tarea.nombre + '</strong>' + ": " + tarea.descripcion + ' (' + tarea.estado;
-        }
+            document.getElementById("tareaBuscada").innerHTML = 'Tarea encontrada: \n' + " " + '<strong>' + tarea.nombre + '</strong>' + ": " + tarea.descripcion + ' (' + tarea.estado + ')';
+        } else document.getElementById("tareaBuscada").innerHTML = "No se ha encontrado ninguna tarea";
     }
 }
 
@@ -42,6 +42,6 @@ function mostrarTareas() {
     const listaTareas = document.getElementById("listaTareas");
     listaTareas.innerHTML = "";
     tareas.forEach(tarea => {
-        listaTareas.innerHTML += '<li>' + tarea.id + " " + '<strong>' + tarea.nombre + '</strong>' + ": " + tarea.descripcion + ' (' + tarea.estado + ') <button onclick="completarTarea(' + tarea.id + ')">Completada</button> <button onclick="eliminarTarea(' + tarea.id + ')">Eliminar tarea</button></li>';
+        listaTareas.innerHTML += '<p>Lista completa de tareas</p>' + '<li>' + tarea.id + " " + '<strong>' + tarea.nombre + '</strong>' + ": " + tarea.descripcion + ' (' + tarea.estado + ') <button onclick="completarTarea(' + tarea.id + ')">Completada</button> <button onclick="eliminarTarea(' + tarea.id + ')">Eliminar tarea</button></li>';
     });
 }
