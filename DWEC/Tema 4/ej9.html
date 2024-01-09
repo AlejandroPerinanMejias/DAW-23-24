@@ -5,15 +5,15 @@
         
     </head>
     <body>
-        <label for="nombreTarea">Nombre de la tarea</label><br>
-        <input type="text" name="nombreTarea" id="nombreTarea"><br><br>
+        <h1>Gestión de Tareas</h1>
+        <input type="text" id="nombreTarea" placeholder="Nombre">
+        <input type="text" id="descripcionTarea" placeholder="Descripcion">
+        <button onclick="agregarTarea()">Añadir Tarea</button><br><br>
+        <input type="text" id="buscarTarea" placeholder="Buscar una tarea (ID)">
+        <button onclick="buscarTarea()">Buscar</button><br><br>
+        <p id="tareaBuscada"></p>
+        <ul id="listaTareas"></ul>
 
-        <label for="descripcion">Descripcion</label><br>
-        <input type="text" name="descripcion" id="descripcion"><br><br>
-
-        <button onclick="anadirTarea()">Añadir tarea</button><br>
-        <button onclick="modificarTarea()">Modificar tarea</button><br>
-        <button onclick="eliminarTarea()">Eliminar tarea</button><br>
         <script src="ej9.js"></script>
     </body>
 </html>
