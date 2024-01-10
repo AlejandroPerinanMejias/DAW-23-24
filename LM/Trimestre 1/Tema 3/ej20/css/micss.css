@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor {
+    width: 100%;
+    max-width: 1600px;
+    min-width: 1024px;
+    background-color: #FF8000;
+}
+
+#cabecera {
+    width: 100%;
+    height: 150px;
+    background-color: #396;
+}
+
+#menu {
+    width: 20%;
+    background-color: #206040;
+}
+
+#contenido {
+    width: 80%;
+    min-height: 518px;
+    background-color: #FF8000;
+}
+
+#pie {
+    width: 100%;
+    height: 100px;
+    background-color: #396;
+}

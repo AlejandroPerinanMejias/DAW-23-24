@@ -1,4 +1,20 @@
+
+
 div {
-    background-color: darkgray;
-    
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div::before, div::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
 }

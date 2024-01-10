@@ -120,11 +120,11 @@ img { border: none; }
 }
 
 #menu {
-  background-image: url(fondo_menu.gif);
+  background-image: url();
 }
 
 #cabecera h1 {
-  background-image: url(logo.gif);
+  background-image: url();
 }
 
 body {
@@ -174,12 +174,4 @@ body {
 .articulo p {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
-}
-
-.secundario {
-
-}
-
-.pie {
-  
 }

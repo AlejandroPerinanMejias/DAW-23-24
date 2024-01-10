@@ -1,0 +1,25 @@
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li:hover ul {
+    display: block;
+}
+  
+li ul {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+  
+li ul li {
+    float: none;
+}
+  
+  

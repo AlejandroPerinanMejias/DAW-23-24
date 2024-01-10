@@ -1,0 +1,1 @@
+document.write('<p><strong>Esto es un texto en negrita</strong></p>');
