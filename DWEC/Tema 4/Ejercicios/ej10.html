@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+        <h1>Gestión de Usuarios</h1>
+        <input type="text" id="IDUsuario" placeholder="ID" size="5">
+        <button onclick="eliminarUsuario()">Eliminar Usuario</button>
+
+        <h2>Usuarios</h2>
+        <p id="IDMostrarUsuario"></p>
+        <p id="nombreMostrarUsuario"></p>
+        <p id="correoMostrarUsuario"></p>
+        <p id="edadMostrarUsuario"></p>
+        <p id="colorPreferidoMostrarUsuario"></p>
+        <p id="mascotaMostrarUsuario"></p>
+        <p id="CiudadOrigenMostrarUsuario"></p>
+        <p id="NivelAccesoMostrarUsuario"></p>
+
+        <button onclick="mostrarUsuario(-1)">Anterior usuario</button>
+        <button onclick="mostrarUsuario(1)">Siguiente usuario</button><br><br>
+
+        <input type="text" id="IDBuscar" placeholder="ID" size="5">
+        <select name="propiedades" id="propiedades">
+            <option value="ID"></option>
+            <option value="nombre">Nombre</option>
+            <option value="correo">Correo</option>
+            <option value="edad">Edad</option>
+            <option value="color_preferido">Color Preferido</option>
+            <option value="mascota">Mascota</option>
+            <option value="ciudad_origen">Ciudad de Origen</option>
+            <option value="nivel_acceso">Nivel de acceso</option>
+        </select>
+        <button onclick="comprobarPropiedades()">Buscar</button>
+        <p id="resultadoBusqueda"></p>
+        <script src="ej10.js"></script>
+    </body>
+</html>
