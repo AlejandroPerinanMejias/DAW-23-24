@@ -1,8 +1,6 @@
-
-
 div {
+    background-color: aliceblue;
     display: flex;
-    justify-content: space-between;
     width: 300px;
     border: 1px solid black;
     padding: 10px;
@@ -13,6 +11,7 @@ div::before, div::after {
     flex: 1 1;
     border-bottom: 1px solid black;
     margin: auto;
+    justify-content: space-between;
 }
 
 a {
