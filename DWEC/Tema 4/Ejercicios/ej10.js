@@ -4,7 +4,7 @@ let usuarios = [
         nombre: "Alejandro Perinan",
         correo: "alejandro.perinan.mejias.alu@iesfernandoaguilar.es",
         edad: 20,
-        color_preferido: "negro",
+        color_preferido: "Negro",
         mascota: "Si",
         ciudad_origen: "Chiclana de la Frontera",
         nivel_acceso: "Normal"
@@ -14,7 +14,7 @@ let usuarios = [
         nombre: "Jose Carlos Perez",
         correo: "jose.carlos.perez.gonzalez.alu@iesfernandoaguilar.es",
         edad: 19,
-        color_preferido: "azul",
+        color_preferido: "Azul",
         mascota: "No",
         ciudad_origen: "Medina Sidonia",
         nivel_acceso: "Normal"
@@ -24,7 +24,7 @@ let usuarios = [
         nombre: "Daniel Martin Hermoso",
         correo: "daniel.martin.hermoso.hermoso.alu@iesfernandoaguilar.es",
         edad: 21,
-        color_preferido: "rojo",
+        color_preferido: "Rojo",
         mascota: "Si",
         ciudad_origen: "San Fernando",
         nivel_acceso: "Normal"

@@ -10,7 +10,6 @@ function agregarTarea() {
         estado: "Pendiente"
     };
     tareas.push(tarea);
-    nombreTarea.value = "";
     mostrarTareas();
 }
 
