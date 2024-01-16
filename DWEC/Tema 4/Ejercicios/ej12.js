@@ -47,3 +47,12 @@ function addPoints() {
 console.log(players);
 }
 
+function showPlayer() {
+    let playerName = document.getElementById("showPlayerName").value;
+    for (let i = 0; i < players.length; i++) {
+        if (players[i]["name"] == playerName) {
+            console.log(players);
+            document.getElementById("playerStats").innerHTML = `${players[i]["name"]} \nPuntos niveles iniciales: ${players[i]["initialLevelPoints"]} \nPuntos niveles medios: ${players[i]["mediumLevelPoints"]} \nPuntos niveles avanzados: ${players[i]["advancedLevelPoints"]}`;
+        };
+    }
+}
