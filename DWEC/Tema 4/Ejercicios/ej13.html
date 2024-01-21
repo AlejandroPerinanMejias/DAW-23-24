@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="ej13.js"></script>
+    </head>
+    <body>
+        <input type="text" id="productName" placeholder="Nombre">
+        <input type="text" id="productCategory" placeholder="Categoria">
+        <input type="text" id="productPrice" placeholder="Precio">
+        <input type="text" id="productStock" placeholder="Cantidad stock">
+        <input type="text" id="productID" placeholder="ID">
+        <input type="text" id="productDate" placeholder="Fecha ingreso">
+        <button onclick="checkProduct()">Añadir/Modificar producto</button>
+        <button onclick="checkStock()">Consultar inventario</button>
+        <button onclick="sell()">Comprar</button>
+        <button onclick="stockInform()">Generar informe</button>
+        <pre id="outputStock"></pre>
+        <pre id="outputInform"></pre>
+    </body>
+</html>
