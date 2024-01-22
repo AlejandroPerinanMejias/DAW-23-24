@@ -1,7 +1,9 @@
+let monederos = [];
+
 class Monedero {
     nombre; //Propiedades
     b5;
-    b10
+    b10;
     b20;
     constructor (nombre, b5, b10, b20) {    //Constructor
         this.nombre = nombre;
@@ -36,32 +38,19 @@ class Monedero {
     setb20 (b20) {
         this.b20 = b20;
     }
-    static mostDinero(m1, m2, m3, m4, m5, m6, m7) { //Metodo que devuelve el monedero con más dinero
-        let granMonedero;
+    static mostDinero() { //Metodo que devuelve el monedero con más dinero
+        let granMonedero = m1;
+
         if (m1.getTotal() == m2.getTotal() == m3.getTotal() == m4.getTotal() == m5.getTotal() == m6.getTotal() == m7.getTotal()) {
             granMonedero = "Cualquiera"
         }
-        if (m1.getTotal() > m2.getTotal()) {
-            granMonedero = m1;
-        } else granMonedero = m2;
-        if (granMonedero.getTotal() < m3.getTotal()) {
-            granMonedero = m3;
-        }
-        if (granMonedero.getTotal() < m4.getTotal()) {
-            granMonedero = m4;
-        }
-        if (granMonedero.getTotal() < m5.getTotal()) {
-            granMonedero = m5;
-        }
-        if (granMonedero.getTotal() < m6.getTotal()) {
-            granMonedero = m6;
-        }
-        if (granMonedero.getTotal() < m7.getTotal()) {
-            granMonedero = m7;
+        
+        for (let i = 0; i < monederos.length; i++) {
+            if (monederos[i].getTotal() > granMonedero.getTotal()) {
+                granMonedero = monederos[i];
+            }
         }
         return granMonedero;
-
-        
     }
 }
 
@@ -73,8 +62,9 @@ let m5 = new Monedero("Monedero 5", 0, 2, 1);
 let m6 = new Monedero("Monedero 6", 2, 2, 0);
 let m7 = new Monedero("Monedero 7", 0, 3, 0);
 
+monederos.push(m1, m2, m3, m4, m5, m6, m7);
 
 function mostMoney() {
-    let granMonedero = Monedero.mostDinero(m1, m2, m3, m4, m5, m6, m7);
+    let granMonedero = Monedero.mostDinero();
     document.getElementById("output").innerHTML = `La cartera con más dinero es ${granMonedero["nombre"]}`;
 }
