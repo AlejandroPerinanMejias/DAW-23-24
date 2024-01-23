@@ -4,6 +4,7 @@ class Persona {
         this.edad = edad;
         this.genero = genero;
     }
+    
     get getInfo() {
         return `Nombre: ${this.nombre} Edad: ${this.edad} Genero: ${this.genero}`;
     }
@@ -15,6 +16,7 @@ class Estudiante extends Persona {
         this.curso = curso;
         this.grupo = grupo;
     }
+
     matriculado(curso) {
         this.curso = curso;
     }
@@ -26,6 +28,7 @@ class Profesor extends Persona {
         this.modulo = modulo;
         this.nivel = nivel;
     }
+
     imparte(modulo, nivel) {
         this.modulo = modulo;
         this.nivel = nivel;
