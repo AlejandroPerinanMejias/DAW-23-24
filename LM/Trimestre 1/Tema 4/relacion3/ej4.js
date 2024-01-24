@@ -1,17 +1,17 @@
 let h = parseInt(prompt("Introduce la altura de la piramide"));
+let char = prompt("Introduce el caracter de la piramide");
 
-function piramid(h) {
+function piramid(h, char) {
     let piramid = document.getElementById("piramid");
-    let char = "";
-    for (let x = 0; x < h; x++) {
-        for (let i = 0; i < h; i++) {
-            piramid.innerHTML += " ";
-        }
-    
-        for (let i = x; i < h; i++) {
-            piramid.innerHTML += "*";
-        }piramid.innerHTML += "<br>";
+    let esp = h;
+    let space = " ";
+    for (let i = 1; i <= h*2; i++) {
+        let spaceRepeat = space.repeat(esp);
+        let charRepeat = char.repeat(i);
+        piramid.innerHTML += `${spaceRepeat}${charRepeat}<br> `;
+        esp--;
+        i++;
     }
 }
 
-piramid(h);
+piramid(h, char);
