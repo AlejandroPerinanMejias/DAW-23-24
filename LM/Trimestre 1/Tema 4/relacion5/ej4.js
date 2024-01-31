@@ -1,0 +1,1 @@
+document.write(`El carácter \\ se utiliza dentro de las cadenas para "escapar" un carácter y ..`);
