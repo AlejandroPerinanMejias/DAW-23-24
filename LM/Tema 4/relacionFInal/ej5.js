@@ -5,13 +5,15 @@ function check() {
     let fecha = document.getElementById("fecha").value;
     let interes = document.getElementById("interes").value;
     let checkbox = document.getElementById("checkbox").value;
-    let unboton = document.getElementById("unboton").value;
-    let otroboton = document.getElementById("otroboton").value;
-    let masboton = document.getElementById("masboton").value;
+    let botones = document.getElementsByName("radio");
 
-    console.log(unboton);
-    console.log(otroboton);
-    console.log(masboton);
+    let flag = false;
+    for(let i = 0; i<botones.length; i++) {
+        if(botones[i].checked) {
+            flag = true;
+            break;
+        }
+    }
 
     if (nombre == "") {
         alert("El campo nombre no es correcto");
@@ -25,7 +27,7 @@ function check() {
         alert("El valor de interes no es valido");
     } else if (checkbox.checked) {
         alert("Debes marcar el checkbox");
-    } else if (!unboton.checked && !otroboton.checked && !masboton.checked) {
+    } else if (!flag) {
         alert("Debes marcar una opcion en los 3 botones");
     } else {
         alert("Todos los datos son correctos");
