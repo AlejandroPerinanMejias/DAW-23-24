@@ -1,0 +1,9 @@
+p, button {
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.oculto {
+    display: none;
+}
