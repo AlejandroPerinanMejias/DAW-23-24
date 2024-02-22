@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aula>
+    <alumno dni="43546556F">
+        <nombre>Alejandro</nombre>
+        <apellidos>Perinan Mejias</apellidos>
+        <sexo>Hombre</sexo>
+        <fechaNacimiento>
+            <dia>8</dia>
+            <mes>1</mes>
+            <ano>2004</ano>
+        </fechaNacimiento>
+        <direccion>
+            <calle>Avenida del Torno</calle>
+            <numero>20</numero>
+        </direccion>
+        <telefono tipo="fijo">676544596<telefono>
+        <notaMedia>7</notaMedia>
+    </alumno>
+    <alumno dni="98564534A">
+        <nombre>Juan Pablo</nombre>
+        <apellidos>Gomez Leal</apellidos>
+        <sexo>Hombre</sexo>
+        <fechaNacimiento>
+            <dia>7</dia>
+            <mes>6</mes>
+            <ano>2003</ano>
+        </fechaNacimiento>
+        <direccion>
+            <calle>Avenida del Torno</calle>
+            <numero>20</numero>
+        </direccion>
+        <telefono tipo="fijo">676544596<telefono>
+        <notaMedia>7</notaMedia>
+    </alumno>
+    <alumno dni="43546556F">
+        <nombre>Alejandro</nombre>
+        <apellidos>Perinan Mejias</apellidos>
+        <sexo>Hombre</sexo>
+        <fechaNacimiento>
+            <dia>8</dia>
+            <mes>1</mes>
+            <ano>2004</ano>
+        </fechaNacimiento>
+        <direccion>
+            <calle>Avenida del Torno</calle>
+            <numero>20</numero>
+        </direccion>
+        <telefono tipo="fijo">676544596<telefono>
+        <notaMedia>7</notaMedia>
+    </alumno>
+    <alumno dni="43546556F">
+        <nombre>Alejandro</nombre>
+        <apellidos>Perinan Mejias</apellidos>
+        <sexo>Hombre</sexo>
+        <fechaNacimiento>
+            <dia>8</dia>
+            <mes>1</mes>
+            <ano>2004</ano>
+        </fechaNacimiento>
+        <direccion>
+            <calle>Avenida del Torno</calle>
+            <numero>20</numero>
+        </direccion>
+        <telefono tipo="fijo">676544596<telefono>
+        <notaMedia>7</notaMedia>
+    </alumno>
+    <alumno dni="43546556F">
+        <nombre>Alejandro</nombre>
+        <apellidos>Perinan Mejias</apellidos>
+        <sexo>Hombre</sexo>
+        <fechaNacimiento>
+            <dia>8</dia>
+            <mes>1</mes>
+            <ano>2004</ano>
+        </fechaNacimiento>
+        <direccion>
+            <calle>Avenida del Torno</calle>
+            <numero>20</numero>
+        </direccion>
+        <telefono tipo="fijo">676544596<telefono>
+        <notaMedia>7</notaMedia>
+    </alumno>
+</aula>
