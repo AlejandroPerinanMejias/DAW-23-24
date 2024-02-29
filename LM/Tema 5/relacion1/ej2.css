@@ -1,0 +1,21 @@
+alumno {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+alumno nombre {
+    font-weight: bold;
+    color: #333;
+}
+
+alumno apellidos {
+    font-style: italic;
+}
+
+alumno notaMedia {
+    font-size: 18px;
+    color: #007bff;
+}

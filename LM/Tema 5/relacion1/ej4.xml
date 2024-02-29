@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas>
+    <pelicula estreno="1972">
+        <titulo>El padrino</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <duracion>
+            <horas>2</horas>
+            <minutos>55</minutos>
+        </duracion>
+        <director>Francis Ford Coppola</director>
+        <actores>
+            <actor tipo="principal">
+                <nombre>Alfredo</nombre>
+                <apellidos>James Pacino</apellidos>
+            </actor>
+            <actor tipo="reparto">
+                <nombre>Alfred</nombre>
+                <apellidos>Lettieri</apellidos>
+            </actor>
+        </actores>
+        <descripcion>El Padrino es una trilogía de Francis Ford Coopola en la que se nos narra la historia de un hombre, Michael Corleone, desde que es un joven idealista que se alista como voluntario en el ejército para servir a su patria hasta que se convierte en el más despiadado de los capos de la mafia.</descripcion>
+    </pelicula>
+</peliculas>

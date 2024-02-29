@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+    <curso identificador="1">
+        <nombre>Primeros auxilios</nombre>
+        <duracion>30 horas</duracion>
+        <descripcion>Conjunto de actuaciones y técnicas que permiten la atención inmediata de un accidentado, hasta que llegue la asistencia médica profesional, con el fin de que las lesiones que ha sufrido no empeoren.</descripcion>
+        <becas />
+        <aula informatica="si">
+            <numeroPlanta>1</numeroPlanta>
+            <numeroAula>1</numeroAula>
+        </aula>
+        <precio>
+            <precioAntiguos>0</precioAntiguos>
+            <precioNuevos>0</precioNuevos>
+        </precio>
+        <semanas>
+            <semana horario="tarde">
+                <inicio>
+                    <dia>15</dia>
+                    <mes>Septiembre</mes>
+                    <ano>2024</ano>
+                </inicio>
+                <fin>
+                    <dia>24</dia>
+                    <mes>Septiembre</mes>
+                    <ano>2024</ano>
+                </fin>
+            </semana>
+            <semana horario="tarde">
+                <inicio>
+                    <dia>1</dia>
+                    <mes>Octubre</mes>
+                    <ano>2024</ano>
+                </inicio>
+                <fin>
+                    <dia>9</dia>
+                    <mes>Octubre</mes>
+                    <ano>2024</ano>
+                </fin>
+            </semana>
+            <semana horario="manana">
+                <inicio>
+                    <dia>1</dia>
+                    <mes>Noviembre</mes>
+                    <ano>2024</ano>
+                </inicio>
+                <fin>
+                    <dia>9</dia>
+                    <mes>Noviembre</mes>
+                    <ano>2024</ano>
+                </fin>
+            </semana>
+        </semanas>
+        <profesores>
+            <profesor tipo="teoria">
+                <nombre>Juan</nombre>
+                <apellidos>Alias Rodriguez</apellidos>
+            </profesor>
+            <profesor tipo="practica">
+                <nombre>Nuria</nombre>
+                <apellidos>Perez Gomez</apellidos>
+            </profesor>
+        </profesores>
+        <temas>
+            <tema numero="1">
+                <titulo>LA OBLIGACIÓN LEGAL DE SOCORRER</titulo>
+                <resumen>El derecho a la vida, la salud y la integridad física es un deber que todos tenemos obligación de proteger.</resumen>
+                <palabrasClave>Código Penal, Ley 31/95 de Prevención de Riesgos Laborales, Art.51 Ley de Tráfico y Seguridad Vial, Art.129 Reglamento General de Conductores, Constitución Española 1978.</palabrasClave>
+                <ejercicios>
+                    <practicos>
+                        <numeroPracticos>10</numeroPracticos>
+                        <duracion>1 hora</duracion>
+                    </practicos>
+                    <teoricos>
+                        <numeroTeoricos>10</numeroTeoricos>
+                        <duracion>1 hora</duracion>
+                    </teoricos>
+                </ejercicios>
+            </tema>
+            <tema numero="2">
+                <titulo>EL ACCIDENTE</titulo>
+                <resumen>Perdida brusca del equilibrio funcional del organismo que puede suceder en cualquier circunstancia: trabajo, hogar, juego, ocio, conducción de vehículos, etc.</resumen>
+                <palabrasClave>Trabajo, Hogar, Juego, Ocio.</palabrasClave>
+                <ejercicios>
+                    <practicos>
+                        <numeroPracticos>10</numeroPracticos>
+                        <duracion>1 hora</duracion>
+                    </practicos>
+                    <teoricos>
+                        <numeroTeoricos>10</numeroTeoricos>
+                        <duracion>1 hora</duracion>
+                    </teoricos>
+                </ejercicios>
+            </tema>
+        </temas>
+    </curso>
+</cursos>
