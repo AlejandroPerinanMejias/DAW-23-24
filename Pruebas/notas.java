@@ -29,5 +29,6 @@ public class notas {
             default:
                 System.out.println("Nota no válida");
         }
+        sc.close();
     }
 }
