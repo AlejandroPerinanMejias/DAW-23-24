@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">    
+    <span class="hand" routerLink="home">Jaen</span>
+    <span class="nav_spacer"></span>    
+    <div>
+        <button *ngIf="isAdmin && getNombreLogueado()" mat-button routerLink="administrar">Administración de usuarios</button>
+        <button *ngIf="getNombreLogueado()" mat-flat-button color="accent" class="menuButton" (click)="logout()">Salir ({{ firstname }})</button>
+        <button *ngIf="!getNombreLogueado()" mat-flat-button color="accent" class="menuButton" routerLink="registro">Registrar</button>
+        <button *ngIf="!getNombreLogueado()" mat-flat-button color="accent" class="menuButton" routerLink="login">Entrar</button>
+    </div>
+</mat-toolbar>

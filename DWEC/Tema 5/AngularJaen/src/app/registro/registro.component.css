@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.sign_up_form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+mat-label {
+    color: #333;
+}
+
+input.matInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[mat-icon-button] {
+    cursor: pointer;
+}
+
+mat-error {
+    color: #d32f2f;
+}
+
+/* Estilos para los botones y elementos interactivos */
+button, mat-datepicker-toggle {
+    background-color: #106cc8;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, mat-datepicker-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el icono de llamada */
+mat-icon {
+    color: #106cc8;
+}

@@ -1,0 +1,21 @@
+.login_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .login_form {
+    text-align: center; 
+    flex-direction: column; 
+    max-width: 300px;
+  }
+
+mat-form-field{
+    width: 100%;
+} 
+
+mat-error{
+    margin-left: -19px;
+}
+  

@@ -1,0 +1,228 @@
+{
+  "lugares": [
+    {
+      "id": "1",
+      "nombre": "Catedral de la Asunción de la Virgen de Jaén",
+      "tipo": "Lugar de interes historico",
+      "descripcion": "La Santa Iglesia Catedral de la Asunción de la Virgen es la catedral de Jaén, sede episcopal de la diócesis de Jaén, en la comunidad autónoma de Andalucía, España. Se ubica en la plaza de Santa María, frente al Palacio Municipal y el Palacio Episcopal. La catedral actual fue concebida en el siglo xvi para sustituir al anterior templo gótico del siglo xv. La construcción se prolongó durante varios siglos, a pesar de lo cual la idea original se mantuvo. Destacan la sala capitular y la sacristía, que son la obra cumbre de Andrés de Vandelvira, y una de las obras más importantes del renacimiento español. También es sobresaliente su fachada principal, una de las principales obras del barroco español, construida tras la consagración del templo en 1660 a partir del diseño de Eufrasio López de Rojas.",
+      "imagen": [
+        "../../assets/img/catedralJaen.jpg",
+        "../../assets/img/catedralJaen2.jpg",
+        "../../assets/img/catedralJaen3.jpg"
+      ],
+      "logo": "../../assets/img/logoPlaza.png",
+      "valoracion": [
+        "5"
+      ],
+      "comentario": [
+        "Me ha gustado"
+      ],
+      "usuarioComentario": [
+        "2457"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Castillo de Santa Catalina",
+      "tipo": "Lugar de interes historico",
+      "descripcion": "El castillo de Santa Catalina, o alcázar nuevo es una antigua construcción defensiva de acabado cristiano-medieval, que corona el cerro del mismo nombre, en una estribación de la Sierra de Jabalcuz a 820 m de altitud, desde la cual se divisa toda la ciudad de Jaén, los olivares y las montañas circundantes de la zona. Es una de las tres fortalezas que constituyen el recinto defensivo Castillo de Jaén, junto con el Alcázar Viejo y el Abrehuí. El nombre le viene dado por la capilla que se construiría en el castillo tras su conquista. La capilla de Santa Catalina de Alejandría es de estilo gótico, y fue construida entre los siglos xiii y xiv. Es bien de interés cultural desde 1931. En 1965 se construyó junto a la fortaleza un Parador Nacional de Turismo.",
+      "imagen": [
+        "../../assets/img/castilloSantaCatalina.jpg",
+        "../../assets/img/castilloSantaCatalina2.jpg",
+        "../../assets/img/castilloSantaCatalina3.jpg"
+      ],
+      "logo": "../../assets/img/logoPlaza.png",
+      "valoracion": [
+        "3",
+        "5",
+        "5"
+      ],
+      "comentario": [
+        "Bien pero está complicado andar hasta allí",
+        "Buenas vistas",
+        "Sitio increible"
+      ],
+      "usuarioComentario": [
+        "816c",
+        "2457",
+        "6c16"
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "Museo Íbero",
+      "tipo": "Museo arqueológico",
+      "descripcion": "El Museo Íbero es un museo ubicado en la ciudad de Jaén, España. Alberga una destacada colección de arte ibérico, principalmente de la colección existente en el Museo de Jaén y otros fondos, y aquellas que proporcionen los nuevos hallazgos arqueológicos, con intención de convertirse en un referente internacional. La idea se gestó en 1997 a manos de la Asociación Amigos de los Íberos, haciéndose pública a través de una campaña de carteles en el edificio que ocupaba el museo actual y siendo apoyada públicamente por el presidente de la Diputación Felipe López y la entonces consejera de Cultura de la Junta de Andalucía Carmen Calvo. El edificio se encuentra situado en el Paseo de la Estación, en el lugar que ocupaba la antigua Prisión Provincial de Jaén. En un principio este inmueble fue el destinado a acoger la sede del museo; sin embargo, la prisión quedó estructuralmente dañada tras las obras del cercano aparcamiento Avenida, y acabó siendo finalmente demolida.",
+      "imagen": [
+        "../../assets/img/museoIbero.jpeg",
+        "../../assets/img/museoIbero2.jpeg",
+        "../../assets/img/museoIbero3.jpeg"
+      ],
+      "logo": "../../assets/img/logoMuseo.jpg",
+      "valoracion": [
+        "5",
+        "5"
+      ],
+      "comentario": [
+        "Muy moderno",
+        "Buen lugar"
+      ],
+      "usuarioComentario": [
+        "816c",
+        "2457"
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "Palacio Diputación Provincial de Jaén",
+      "tipo": "Oficina administrativa",
+      "descripcion": "El Palacio Provincial o Palacio de la Diputación Provincial es la sede actual de la Diputación Provincial de Jaén y es una obra del siglo xix. Se edificó sobre el solar del Real Convento de Nuestro Seráfico Padre San Francisco de Asís derribado en 1867, que había sido residencia de Fernando III de Castilla tras la conquista de la ciudad. Este proyecto ecléctico fue obra de Jorge Porrua y Moreno. La portada queda resaltada con triple vano de arcos de medio punto. En el patio interior destaca una fuente monumental procedente del Antiguo Convento de Santo Domingo de La Guardia de Jaén. El palacio cuenta con una interesante colección pictórica repartida por sus dependencias. La Diputación se ubicó en distintos edificios del casco antiguo de la capital hasta que en 1891 el gobierno provincial se trasladó a la Plaza de San Francisco donde se encuentra actualmente, presidiendo el paso de la calle Bernabé Soriano, desde la vecindad de la Catedral.",
+      "imagen": [
+        "../../assets/img/palacioDiputacionJaen.jpg",
+        "../../assets/img/palacioDiputacionJaen2.jpg",
+        "../../assets/img/palacioDiputacionJaen3.jpg"
+      ],
+      "logo": "../../assets/img/logoPlaza.png",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    },
+    {
+      "id": "5",
+      "nombre": "Hospital de San Juan de Dios",
+      "tipo": "Centro cultural en Jaén",
+      "descripcion": "El Antiguo Hospital de San Juan de Dios es un edificio de la ciudad española de Jaén, situado en el casco antiguo de la misma. Fue construido en el siglo xv. Actualmente es sede de distintos servicios de la Diputación Provincial de Jaén. El Hospital nace de la unión de otros dos, el de la Santa Misericordia (siglo xvi) y el de San Lázaro, que en el año 1619, fueron entregados por el cabildo municipal a la Orden de San Juan de Dios, formando parte después de la Beneficencia de la Diputación Provincial hasta 1980. Gracias a donaciones particulares y al patronazgo del Concejo Municipal, esta institución sanitaria, llegó a ser uno de los hospitales más longevos de España, y el de mayor solera en Jaén. Durante varios siglos obtuvo el mérito y honor de constituirse en un verdadero modelo asistencial que se difundió por todo el ámbito de la monarquía española. Hasta 1973, cuando todas sus instalaciones fueron trasladadas al nuevo y moderno Centro Hospitalario Princesa Sofía de España, quedando el benemérito antiguo Hospital de San Juan de Dios incomprensiblemente abandonado, expuesto al robo y pillaje, y casi arruinado.",
+      "imagen": [
+        "../../assets/img/HospitalSanJuan.jpg",
+        "../../assets/img/HospitalSanJuan2.jpg",
+        "../../assets/img/HospitalSanJuan3.jpg"
+      ],
+      "logo": "../../assets/img/logoHospital.png",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    },
+    {
+      "id": "6",
+      "nombre": "Mirador de la Cruz",
+      "tipo": "Parque",
+      "descripcion": "Un rincón perfecto para maravillarse con Jaén y sus olivares, los auténticos protagonistas de este paisaje. La entrada a este mirador es completamente gratuita y, sin lugar a dudas, constituye uno de los lugares más mágicos de la ciudad. Esta cruz está situada en las cercanías del castillo de Jaén. Su elevada ubicación la convierte en un punto estratégico para tener unas espléndidas vistas de la ciudad y tomar fotos unas fotos espectaculares. Además, junto con el propio castillo y la catedral, constituye es uno de los símbolo de la ciudad. Se dice que originalmente la cruz fue erigida por Fernando III el Santo tras arrebatar la fortaleza al rey Alhamar, y que era de madera. La cruz actualmente es una réplica en piedra, pero que mantiene toda la simbología. Situada en el punto más elevado de la cuidad junto al castillo de Santa Catalina, desde esta cruz se puede ver toda la ciudad de Jaen, por la noche enamora y más con la vista de su preciosa Catedral.",
+      "imagen": [
+        "../../assets/img/miradorCruz.png",
+        "../../assets/img/miradorCruz2.png",
+        "../../assets/img/miradorCruz3.png"
+      ],
+      "logo": "../../assets/img/logoParque.jpg",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    },
+    {
+      "id": "7",
+      "nombre": "Puerta del Ángel",
+      "tipo": "Lugar de interes historico",
+      "descripcion": "La Puerta del Ángel fue construida en 1646 y es la única puerta que se conserva del antiguo recinto amurallado de la ciudad de Jaén. Permanece unida al Convento de las Franciscanas Descalzas o de Las Bernardas, dando entrada al Parque de la Alameda, un jardín de origen renacentista. La puerta está coronada por una hornacina con una escultura de San Miguel (de ahí recibe el nombre de Puerta del Angel). La Puerta del Ángel forma parte de la ampliación que sufrió la muralla medieval en la época del Condestable Iranzo. Fue construida en 1646 y es la única puerta que se conserva del antiguo recinto amurallado de la ciudad de Jaén. La Puerta del Ángel  Permanece dando entrada al Parque de la Alameda, un jardín de origen renacentista. La puerta está coronada por una hornacina con una escultura de San Miguel (de ahí recibe el nombre de Puerta del Ángel). Comenzaba en la llamada Puerta Noguera hasta la Puerta del Ángel, y de ahí hacia el Portillo de San Jerónimo.",
+      "imagen": [
+        "../../assets/img/puertaAngel.jpg",
+        "../../assets/img/puertaAngel2.jpg",
+        "../../assets/img/puertaAngel3.jpg"
+      ],
+      "logo": "../../assets/img/logoPlaza.png",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    },
+    {
+      "id": "8",
+      "nombre": "Basílica de San Ildefonso",
+      "tipo": "Lugar de interes historico",
+      "descripcion": "La basílica menor de la Sacra Iglesia Parroquial de San Ildefonso es un templo cristiano católico de Jaén. Fue erigido en 1248 en el arrabal San Ildefonso, creado tras la ampliación del recinto amurallado de la ciudad. Fue consagrado a San Ildefonso de Toledo por encontrarse en aquel momento la iglesia de Jaén dependiente del arzobispado de Toledo. Se sitúa en la plaza homónima, que se halla presidida por una escultura dedicada a la Inmaculada Concepción de María, labrada en piedra por Amadeo Ruiz Olmos con motivo de la remodelación de la plaza en 1957. A raíz del 'Descenso de la Virgen' en 1430, este templo adquirió una gran importancia y se convirtió en santuario y, posteriormente, en basílica menor, de la patrona de la ciudad. En esta iglesia se hallan sepultados los restos del arquitecto y cantero Andrés de Vandelvira, mentor de las catedrales de Jaén y Baeza, fallecido en 1575. Con la edificación, en un antiguo arrabal extramuros de la ciudad árabe, del barrio de San Ildefonso, se construye una pequeña capilla en el corazón del nuevo barrio.",
+      "imagen": [
+        "../../assets/img/basilicaIldefonso2.jpg",
+        "../../assets/img/basilicaIldefonso.jpg",
+        "../../assets/img/basilicaIldefonso3.jpg"
+      ],
+      "logo": "../../assets/img/logoPlaza.png",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    },
+    {
+      "id": "9",
+      "nombre": "Plaza alta",
+      "tipo": "Centro cultural en Jaén",
+      "descripcion": "Gestada en 1807 su construcción, la Plaza Alta de Algeciras ha sido escenario de los capítulos más importantes de la ciudad. Propuesta su elevación por el general Castaños al Gran Almirante Manuel Godoy, es también conocida como Plaza del Almirante, pues la obras finalizaran el 12 de Mayo de ese mismo año, coincidiendo con el cumpleaños de Manuel Godoy. Sobre una superficie de 4.420 varas cuadradas delimitada por chopos de Lombardía, el Coronel del Cuerpo de Caballería, Joaquín Díaz de Castellar, levantó esta plaza con cuatro frentes donde quedaban calles espaciadas de ocho o doce varas de ancho, un cuadro enlosado con ocho entradas y en el centro, un monumento conmemorativo consistente en un obelisco que años más tarde, en 1926, el alcalde Joaquín Bianchi Santacana ordenó derribar. Fue en 1929 cuando el alcalde Laureano Ortega Arquellada encargó a las fábricas de Sevilla Cerámica Santa Ana y Cerámica Sevillana de Triana Casa González, la singular solería que luce la plaza.",
+      "imagen": [
+        "../../assets/img/plazaAlta.jpeg",
+        "../../assets/img/plazaAlta2.jpeg",
+        "../../assets/img/plazaAlta3.jpeg"
+      ],
+      "logo": "../../assets/img/logoHospital.png",
+      "valoracion": [],
+      "comentario": [],
+      "usuarioComentario": []
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "Alejandro",
+      "apellidos": "Perinan Mejias",
+      "rol": "administrador",
+      "fechaNacimiento": "08-01-2004",
+      "correo": "peri@gmail.com",
+      "numTelefono": 664005263,
+      "genero": "masculino",
+      "comunidad": "Andalucia",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tYnJlIjoiQWxlamFuZHJvIiwiYXBlbGxpZG9zIjoiUGVyaW5hbiBNZWppYXMiLCJyb2wiOiJhZG1pbmlzdHJhZG9yIiwiZmVjaGFOYWNpbWllbnRvIjoiMDgtMDEtMjAwNCIsImNvcnJlbyI6InBlcmlAZ21haWwuY29tIiwiY29udHJhc2VuYSI6IjEyMzQifQ.ZUadDyUKForMZCRyPqeB8XzTNEcT50Tf_TjS-hDBxac"
+    },
+    {
+      "id": "816c",
+      "rol": "usuario",
+      "nombre": "Juan",
+      "apellidos": "Navarro Perez",
+      "fechaNacimiento": "2000-06-08",
+      "correo": "juanito@gmail.com",
+      "numTelefono": "665447799",
+      "genero": "2",
+      "comunidad": "Andalucía",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgxNmMiLCJyb2wiOiJ1c3VhcmlvIiwibm9tYnJlIjoiSnVhbiIsImFwZWxsaWRvcyI6Ik5hdmFycm8gUGVyZXoiLCJmZWNoYU5hY2ltaWVudG8iOiIyMDAwLTA2LTA4IiwiY29ycmVvIjoianVhbml0b0BnbWFpbC5jb20iLCJjb250cmFzZW5hIjoiMTIzNCJ9.RkNi06ZcElDXlmYapY38BVymnIkQE5FoYr9Y_c1YwMg"
+    },
+    {
+      "id": "2457",
+      "rol": "usuario",
+      "nombre": "Celia",
+      "apellidos": "Gomez Martinez",
+      "fechaNacimiento": "2004-03-10",
+      "correo": "celia@gmail.com",
+      "numTelefono": "334990066",
+      "genero": "1",
+      "comunidad": "Andalucía",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI0NTciLCJyb2wiOiJ1c3VhcmlvIiwibm9tYnJlIjoiQ2VsaWEiLCJhcGVsbGlkb3MiOiJHb21leiBNYXJ0aW5leiIsImZlY2hhTmFjaW1pZW50byI6IjIwMDQtMDMtMTAiLCJjb3JyZW8iOiJjZWxpYUBnbWFpbC5jb20iLCJjb250cmFzZW5hIjoiMTIzNCJ9.D7D0liSjEVujnjl7EZx__Od3vLWRBZBBoXzzjv4cDGI"
+    },
+    {
+      "id": "6c16",
+      "rol": "usuario",
+      "nombre": "Pepe",
+      "apellidos": "Gonzalez Sanchez",
+      "fechaNacimiento": "1999-07-29",
+      "correo": "pepito@gmail.com",
+      "numTelefono": "112887766",
+      "genero": "2",
+      "comunidad": "Andalucía",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZjMTYiLCJyb2wiOiJ1c3VhcmlvIiwibm9tYnJlIjoiUGVwZSIsImFwZWxsaWRvcyI6IkdvbnphbGV6IFNhbmNoZXoiLCJmZWNoYU5hY2ltaWVudG8iOiIxOTk5LTA3LTI5IiwiY29ycmVvIjoicGVwaXRvQGdtYWlsLmNvbSIsImNvbnRyYXNlbmEiOiIxMjM0In0.W8sNrBQtlvMM0b5OlNz5jNeJ755R8OawSBJ_RRN4fns"
+    },
+    {
+      "id": "1880",
+      "rol": "usuario",
+      "nombre": "Ana",
+      "apellidos": "Alba Mendez",
+      "fechaNacimiento": "1998-07-09",
+      "correo": "anita@gmail.com",
+      "numTelefono": "445334455",
+      "genero": "1",
+      "comunidad": "Andalucía",
+      "token": "CambiarPorTokenCorrespondiente"
+    }
+  ]
+}

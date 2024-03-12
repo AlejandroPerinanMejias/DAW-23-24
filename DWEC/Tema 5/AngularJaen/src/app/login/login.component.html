@@ -1,0 +1,24 @@
+<div class="login_form_container">
+    <div class="login_form">
+        <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+            <img src="../../../assets/img/logoJaen.png" width="70%">
+            <h2>Entrar en la aplicación</h2>
+            <mat-form-field class="define_width" appearance="fill">
+                <mat-label>Correo</mat-label>
+                <input matInput autocomplete="off" type="text" formControlName="correo">
+                <button *ngIf="correo" matSuffix mat-icon-button aria-label="Limpiar" (click)="correo=''">
+                    <mat-icon>close</mat-icon>
+                </button>
+            </mat-form-field>
+            <mat-form-field class="define_width" appearance="fill">
+                <mat-label>Contraseña</mat-label>
+                <input matInput autocomplete="off" type="password" formControlName="contrasena">
+                <button *ngIf="contrasena" matSuffix mat-icon-button aria-label="Limpiar" (click)="contrasena=''">
+                    <mat-icon>close</mat-icon>
+                </button>
+            </mat-form-field>        
+            <br>
+            <button type="submit" mat-raised-button class="define_width enter" [disabled]="loginForm.invalid">Entrar</button>
+        </form>        
+    </div>
+</div>

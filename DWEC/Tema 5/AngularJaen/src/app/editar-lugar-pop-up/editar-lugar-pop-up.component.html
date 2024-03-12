@@ -1,0 +1,86 @@
+<h2 mat-dialog-title>Registro de usuario</h2>
+<form [formGroup]="formularioEditar" (ngSubmit)="submitAddEditForm()">
+    <mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el ID</mat-label>
+                <input matInput placeholder="ID" formControlName="id">
+                <mat-error *ngIf="formularioEditar.get('id')?.hasError('required')">
+                    Debe indicar el ID
+                </mat-error>
+            </mat-form-field>
+            <span class="example-spacer"></span>
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el nombre</mat-label>
+                <input matInput placeholder="Nombre" formControlName="nombre">
+                <mat-error *ngIf="formularioEditar.get('nombre')?.hasError('required')">
+                    Debe indicar el Nombre
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Indique la descripcion</mat-label>
+                <input matInput placeholder="Descripcion" formControlName="descripcion">
+                <mat-error *ngIf="formularioEditar.get('descripcion')?.hasError('required')">
+                    Debe indicar la descripcion
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el tipo</mat-label>
+                <input matInput placeholder="Párrafo pequeño" formControlName="tipo">
+                <mat-error *ngIf="formularioEditar.get('tipo')?.hasError('required')">
+                    Debe indicar el tipo
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el logo</mat-label>
+                <input matInput placeholder="Párrafo pequeño" formControlName="logo">
+                <mat-error *ngIf="formularioEditar.get('logo')?.hasError('required')">
+                    Debe indicar el logo
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el enlace de la imagen 1</mat-label>
+                <input matInput placeholder="Enlace imagen 1" formControlName="imagen0">
+                <mat-error *ngIf="formularioEditar.get('imagen0')?.hasError('required')">
+                    Debe indicar el enlace de la primera imagen
+                </mat-error>
+            </mat-form-field>
+            <span class="example-spacer"></span>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el enlace de la imagen 2</mat-label>
+                <input matInput placeholder="Enlace imagen 2" formControlName="imagen1">
+                <mat-error *ngIf="formularioEditar.get('imagen1')?.hasError('required')">
+                    Debe indicar el enlace de la segunda imagen
+                </mat-error>
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="fill">
+                <mat-label>Indique el enlace de la imagen 3</mat-label>
+                <input matInput placeholder="Enlace imagen 3" formControlName="imagen2">
+                <mat-error *ngIf="formularioEditar.get('imagen2')?.hasError('required')">
+                    Debe indicar el enlace de la tercera imagen
+                </mat-error>
+            </mat-form-field>
+            <span class="example-spacer"></span>
+        </div>
+
+    </mat-dialog-content>
+    <mat-dialog-actions class="action">
+        <button mat-button mat-dialog-close type="button" [mat-dialog-close]="false" color="accent">Cancelar</button>
+        <button mat-button mat-dialog-close cdkFocusInitial type="submit" color="primary">{{ data ? 'Guardar cambios' :
+            'Agregar lugar' }}</button>
+    </mat-dialog-actions>
+</form>

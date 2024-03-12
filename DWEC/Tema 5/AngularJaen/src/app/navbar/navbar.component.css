@@ -1,0 +1,11 @@
+.nav_spacer {
+    flex: 1 1 auto;
+}
+
+.mdc-button{
+    margin-left: 10px;
+}
+
+.hand{
+    cursor: pointer;
+}

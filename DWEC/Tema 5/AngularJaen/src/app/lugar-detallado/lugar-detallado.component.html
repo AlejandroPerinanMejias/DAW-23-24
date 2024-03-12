@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaen</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="textoMasValoraciones">
+      <div class="texto">
+        <h1>{{lugar.nombre}}</h1>
+        <h2>{{lugar.tipo}}</h2>
+        <p>{{lugar.descripcion}}</p>
+      </div>
+
+      <div class="valoracionesUsuarios">
+        <h2>Reseñas {{getMediaValoracion(lugar.valoracion)}}<mat-icon>star</mat-icon></h2>
+
+        <div *ngIf="logueado == true && lugar.usuarioComentario.indexOf(idUsuario) == -1 ; else noLogueado">
+          <div class="valoraciones" *ngFor="let val of lugar.valoracion ; index as i">
+            <p>{{lugar.valoracion[i]}}</p>
+            <mat-icon>star</mat-icon>
+            <p>{{lugar.comentario[i]}}</p>
+          </div>
+        
+
+        <form [formGroup]="formularioComentario" class="commentForm" (submit)="enviarValoracion()">
+          <mat-form-field>
+            <mat-label>Valoración</mat-label>
+            <mat-select formControlName="valoracion">
+              <mat-option *ngFor="let valoracion of ['1', '2', '3', '4', '5']" [value]="valoracion">
+                {{ valoracion }}
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="formularioComentario.get('valoracion')?.hasError('required')">
+              Debe indicar una valoración válida
+            </mat-error>
+          </mat-form-field>
+
+          <mat-form-field>
+            <mat-label>Escriba su opinión</mat-label>
+            <input matInput placeholder="Opinión" formControlName="comentario">
+            <mat-error *ngIf="formularioComentario.get('comentario')?.hasError('required')">
+              Debe escribir su opinión
+            </mat-error>
+          </mat-form-field>
+
+          <mat-dialog-actions>
+            <button mat-stroked-button cdkFocusInitial color="primary" type="submit"
+              [disabled]="formularioComentario.invalid">Enviar valoración</button>
+          </mat-dialog-actions>
+        </form>
+      </div>
+    </div>
+
+      <ng-template #noLogueado>
+        <div *ngIf="lugar.valoracion.length < 1 ; else mostrarComentarios">
+          <p>No existen comentarios</p>
+        </div>
+
+        <ng-template #mostrarComentarios>
+          <div class="resenas" *ngFor="let val of lugar.valoracion ; index as i">
+            <p>{{lugar.valoracion[i]}}</p>
+            <mat-icon>star</mat-icon>
+            <p>{{lugar.comentario[i]}}</p>
+          </div>
+        </ng-template>
+      </ng-template>
+    </div>
+
+    <div class="imagenPrincipal">
+      <img id="imagenPrincipal" src="{{lugar.imagen[0]}}" alt="Imagen">
+    </div>
+
+    <div class="contenedorImagenes">
+      <div class="imagenes" *ngFor="let imagen of lugar.imagen; index as i">
+        <img (click)="cambiarImagen(lugar.imagen[i])" src="{{lugar.imagen[i]}}" alt="Imagen">
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
