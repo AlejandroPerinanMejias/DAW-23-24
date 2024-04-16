@@ -1,0 +1,62 @@
+<libreria>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <genero>Fantasía</genero>
+        <anio>1954</anio>
+        <precio>20.00</precio>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <genero>Fantasía</genero>
+        <anio>1997</anio>
+        <precio>15.00</precio>
+    </libro>
+    <libro>
+        <titulo>Juego de tronos</titulo>
+        <autor>GeorgeR.R. Martin</autor>
+        <genero>Fantasía</genero>
+        <anio>1996</anio>
+        <precio>18.00</precio>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo mágico</genero>
+        <anio>1967</anio>
+        <precio>22.00</precio>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Ciencia ficción</genero>
+        <anio>1949</anio>
+        <precio>
+    </libro>
+</libreria>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" indent="yes"/>
+    <xsl:template match="/">
+    <html> 
+    <body>
+    <h2>Resultados</h2>
+    <table border="1">
+        <tr bgcolor="#9acd32">
+        <th style="text-align:left">nombre</th>
+        <th style="text-align:left">peso</th>
+        <th style="text-align:left">lugar</th>
+        </tr>
+        <xsl:for-each select="inventario/producto">
+<xsl:for-each select="//producto">
+                    	<tr>
+                        	<td><xsl:value-of select="nombre"/></td>
+                        	<xsl:if test="peso[@unidad = 'g']">
+                            	<td><xsl:value-of select="peso div 1000"/></td>
+                        	</xsl:if>
+                        	<xsl:if test="peso[@unidad = 'kg']">
+                            	<td><xsl:value-of select="peso"/></td>
+                        	</xsl:if>
+                        	<td>

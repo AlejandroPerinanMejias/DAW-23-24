@@ -1,0 +1,4 @@
+
+<xsl:template match='autor' >
+    <xsl:value-of select='./'>
+</xsl:template>

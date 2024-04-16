@@ -15,10 +15,9 @@
 // }
 {
 	"Comment": {
-	"prefix": "base",
+	"prefix": "xmlstart",
 	"body": [
-		"<?xml version='1.0' encoding='UTF-8'?>",
-		"<!DOCTYPE raiz SYSTEM 'dtd/dtd.dtd'>",
+		"<?xml version='1.0' encoding='UTF-8'?>"
 	],
 	"description": "base del archivo xml"
 	},

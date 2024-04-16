@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE games [
+    <!ELEMENT games (game*)>
+    <!ELEMENT game (home--team, ex--team, scores, yellows, reds)>
+    <!ATTLIST game score CDATA #REQUIRED>
+    <!ELEMENT home--team (#PCDATA)>
+    <!ELEMENT ex--team (#PCDATA)>
+    <!ELEMENT scores (score*)>
+    <!ELEMENT score (#PCDATA)>
+    <!ATTLIST score type (field | penalty) #IMPLIED>
+    <!ATTLIST score me CDATA #REQUIRED>
+    <!ELEMENT yellows (player*)>
+    <!ELEMENT player (#PCDATA)>
+    <!ELEMENT reds (player*)>
+]>
