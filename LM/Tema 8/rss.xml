@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0">
+    <channel>
+        <title>Servidor</title>
+        <link>http://127.0.0.1:5500</link>
+        <description>Direccion del servidor</description>
+        <item>
+            <title>El tiempo en Chiclana de la Frontera</title>
+            <link>https://www.eltiempo.es/chiclana-de-la-frontera.html</link>
+            <description>Esta pagina contiene informacion sobre el tiempo en Chiclana de la Frontera</description>
+        </item>
+    </channel>
+</rss>
