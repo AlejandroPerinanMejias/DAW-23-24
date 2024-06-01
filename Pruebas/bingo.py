@@ -2,11 +2,14 @@ import random
 import time
 
 TACHADO = 'TACHADO'
-DELAY = 1 
+DELAY = 1
+SERIE_MIN = 100
+SERIE_MAX = 200
 
 def comprobar_linea(cartones):
     for serie, carton in cartones.items():
-        for f, fila in enumerate(carton):
+        for f in range(len(carton)):
+            fila = carton[f]
             hay_linea = True
             for numero in fila:
                 if numero != TACHADO:
@@ -32,8 +35,9 @@ def comprobar_bingo(cartones):
 
 def generar_cartones(jugadores):
     cartones = {}
+    series = random.sample(range(SERIE_MIN, SERIE_MAX + 1), jugadores)
     for i in range(jugadores):
-        cartones[i] = [[random.randint(1, 90) for _ in range(5)] for _ in range(3)]
+        cartones[series[i]] = [[random.randint(1, 90) for _ in range(5)] for _ in range(3)]
     return cartones
 
 def extraer_bola(lista_bolas):
@@ -51,8 +55,8 @@ def marcar_bolas(cartones, bola):
                     fila[i] = TACHADO
 
 def imprimir_cartones(cartones):
-    for jugador, carton in cartones.items():
-        print(f"Jugador {jugador + 1}:")
+    for serie, carton in cartones.items():
+        print(f"Cartón {serie}:")
         for fila in carton:
             print(fila)
 
@@ -75,7 +79,7 @@ def jugar():
         
         print(f"Ha salido la bola {bola}")
         marcar_bolas(lista_cartones, bola)
-        print("Estos son los números jugados hasta ahora: " + ", ".join(map(str, bolas_sacadas)))
+        print("Estos son los números jugados hasta ahora: " + ", ".join(str(b) for b in bolas_sacadas))
         
         linea = comprobar_linea(lista_cartones)
         if linea:
@@ -91,7 +95,7 @@ def jugar():
         
         print(f"Ha salido la bola {bola}")
         marcar_bolas(lista_cartones, bola)
-        print("Estos son los números jugados hasta ahora: " + ", ".join(map(str, bolas_sacadas)))
+        print("Estos son los números jugados hasta ahora: " + ", ".join(str(b) for b in bolas_sacadas))
 
         imprimir_cartones(lista_cartones)
         time.sleep(DELAY)
